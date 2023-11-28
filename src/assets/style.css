@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.snap {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.snap::-webkit-scrollbar {
+  display: none;
+}
+
+.snap > img {
+  scroll-snap-align: center;
+}
+
+.navbarTogglerActive > span:nth-child(1) {
+  @apply top-[7px] rotate-45;
+}
+
+.navbarTogglerActive > span:nth-child(2) {
+  @apply opacity-0;
+}
+
+.navbarTogglerActive > span:nth-child(3) {
+  @apply -top-2 rotate-[135deg];
+}
+
+/* input:checked ~ .dot {
+  @apply translate-x-full bg-primary;
+} */
+
+input:checked ~ .dot .active {
+  @apply block;
+}
+
+input:checked ~ .dot .inactive {
+  @apply hidden;
+}
+
+/* input#toggleFour:checked ~ .box {
+  @apply bg-primary;
+} */
+
+/* input#toggleFour:checked ~ .dot {
+  @apply translate-x-full bg-white;
+} */
+
+/* input#toggleFive:checked ~ .dot {
+  @apply translate-x-full bg-white;
+} */
+
+input#toggleFive:checked ~ .dot > span {
+  @apply bg-primary;
+}
+
+/* input#toggleSix:checked ~ .dot {
+  @apply translate-x-full bg-white;
+} */
+
+/* input#toggleEight:checked ~ .box {
+  @apply bg-[#EAEEFB];
+} */
+
+/* input#toggleEight:checked ~ .dot {
+  @apply bg-primary;
+} */
+
+input#toggleEight:checked ~ .dot span {
+  @apply border-white bg-primary;
+}
+
+input#toggleNine:checked ~ .dot span {
+  @apply bg-white;
+}
+
+/* input#toggleNine:checked ~ .dot {
+  @apply bg-primary;
+} */
+
+/* input:checked ~ .box {
+  @apply border-primary;
+} */
+
+/* input#checkboxLabelOne:checked ~ .box {
+  @apply border-primary;
+} */
+
+input#checkboxLabelOne:checked ~ .box .dot {
+  @apply bg-primary;
+}
+
+input#checkboxLabelTwo:checked ~ .box span {
+  @apply opacity-100;
+}
+
+input#checkboxLabelThree:checked ~ .box span {
+  @apply opacity-100;
+}
+
+/* input#checkboxLabelFour:checked ~ .box {
+  @apply border-primary;
+} */
+
+input#checkboxLabelFour:checked ~ .box span {
+  @apply bg-primary;
+}
+
+/* input#checkboxLabelFive:checked ~ .box {
+  @apply bg-primary;
+} */
+
+.shape-gradient {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(196, 196, 196, 0) 100%);
+}
+
+/* v-2.0 start from here */
+.container {
+  @apply px-4 mx-auto;
+}
+input[type='checkbox']:checked ~ .box span {
+  @apply opacity-100;
+}
+
+input[type='radio']:checked ~ .box .circle {
+  @apply bg-primary;
+}
+
+input[type='radio']:checked ~ .box span {
+  @apply opacity-100;
+}
+
+.payment:checked ~ label {
+  @apply border-primary bg-primary bg-opacity-[8%];
+}
+
+.shipping:checked ~ label {
+  @apply border-primary;
+}
+
+.shipping.select-box:checked ~ label {
+  @apply border-primary bg-primary/5;
+}
+
+.shipping:checked ~ label .title {
+  @apply text-primary;
+}
+
+.color:checked ~ label span {
+  @apply w-2 h-2;
+}
+
+.productColor:checked ~ label span {
+  @apply h-5 w-5;
+}
+
+.productColor2:checked ~ label span {
+  @apply w-3 h-3;
+}
+
+.filter-size:checked ~ label {
+  @apply text-white border-primary bg-primary;
+}
+
+.filter-size-2:checked ~ label {
+  @apply border-primary bg-primary bg-opacity-10;
+}
+
+.ram-size:checked ~ label {
+  @apply border-primary text-primary;
+}
+
+.download-radio:checked ~ label {
+  @apply border-primary bg-primary;
+}
+.download-radio:checked ~ label span {
+  @apply text-white;
+}
+.download-radio:checked ~ label .icon {
+  @apply opacity-100;
+}
+
+/* ============
+=============== */
+.noUi-base {
+  @apply bg-white dark:bg-dark-2;
+}
+
+.priceSlideOne .noUi-target {
+  @apply mt-8 border-none bg-gray shadow-none;
+}
+
+.priceSlideOne .noUi-connects {
+  @apply h-[6px] rounded-full bg-[#D4D9E8] dark:bg-dark-3;
+}
+
+.priceSlideOne .noUi-connect {
+  @apply h-[6px] rounded-full bg-primary;
+}
+
+.priceSlideOne .noUi-horizontal .noUi-handle {
+  @apply -top-2 h-[22px] w-[22px] rounded-full border-[6px] border-primary bg-white dark:bg-dark-2 shadow-none;
+}
+
+.priceSlideTwo .noUi-target {
+  @apply mt-8 bg-white border-none shadow-none;
+}
+
+.priceSlideTwo .noUi-connects {
+  @apply h-1 rounded-full bg-[#D4D9E8] dark:bg-dark-3;
+}
+
+.priceSlideTwo .noUi-connect {
+  @apply h-1 rounded-full bg-primary;
+}
+
+.priceSlideTwo .noUi-horizontal .noUi-handle {
+  @apply -top-3 h-[30px] w-[30px] rounded-full border border-primary bg-white dark:bg-dark-3 shadow-none;
+}
+
+.noUi-horizontal .noUi-handle:after,
+.noUi-horizontal .noUi-handle:before {
+  @apply hidden;
+}
+
+#activityChart .apexcharts-legend-series {
+  @apply !mr-5;
+}
+
+/* ======= Switch ======= */
+.autoSaverSwitch input:checked ~ .slider {
+  @apply bg-primary;
+}
+.autoSaverSwitch input:checked ~ .slider .dot {
+  @apply translate-x-6;
+}
+.autoSaverSwitch input:checked ~ .label .on {
+  @apply block;
+}
+.autoSaverSwitch input:checked ~ .label .off {
+  @apply hidden;
+}
+
+.themeSwitcherTwo input:checked ~ .light {
+  @apply bg-transparent text-body-color;
+}
+.themeSwitcherTwo input:checked ~ .dark {
+  @apply bg-gray dark:bg-dark-3 text-primary;
+}
+
+.themeSwitcherTwo input:checked ~ .slider {
+  @apply bg-dark;
+}
+.themeSwitcherTwo input:checked ~ .slider .dot {
+  @apply translate-x-[28px];
+}
+
+.themeSwitcherThree input:checked ~ div .light {
+  @apply bg-white dark:bg-dark-2 text-body-color;
+}
+.themeSwitcherThree input:checked ~ div .dark {
+  @apply text-white bg-primary;
+}
+
+/* box-select-1 */
+
+.checkbox-list:checked ~ label {
+  @apply border-primary bg-primary;
+}
+
+.checkbox-list:checked ~ label .icon {
+  @apply opacity-100;
+}
+
+.box-select-1:checked ~ label .box {
+  @apply border-primary bg-primary;
+}
+.box-select-1:checked ~ label .box .icon {
+  @apply opacity-100;
+}
+.box-select-1:checked ~ label div.user-box {
+  @apply bg-gray-2 dark:bg-dark;
+}
+
+.select-list:checked ~ label {
+  @apply border-primary text-primary;
+}
+.select-list:checked ~ label .icon {
+  @apply bg-primary;
+}
+
+.tableCheckbox:checked ~ label .icon-box {
+  @apply border-primary bg-primary;
+}
+
+.tableCheckbox:checked ~ label .icon {
+  @apply opacity-100;
+}
+
+.tableCheckbox-2:checked ~ label {
+  @apply border-primary bg-primary;
+}
+.tableCheckbox-2:checked ~ label .icon {
+  @apply text-white opacity-100;
+}
+
+/* Maps */
+.jvm-zoom-btn {
+  @apply top-auto bottom-0 left-auto flex h-[30px] w-[30px] items-center justify-center rounded border-[.5px] border-stroke dark:border-dark-3 bg-gray dark:bg-dark font-medium leading-[1.1] text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary hover:text-white;
+}
+
+.mapOne .jvm-zoom-btn {
+  @apply -bottom-[33px] top-auto left-auto;
+}
+.mapOne.mapThree .jvm-zoom-btn {
+  @apply bottom-0;
+}
+.mapOne .jvm-zoom-btn.jvm-zoomin {
+  @apply right-9;
+}
+.mapOne .jvm-zoom-btn.jvm-zoomout {
+  @apply right-0;
+}
+
+.mapTwo .jvm-zoom-btn {
+  @apply bottom-0 top-auto;
+}
+
+.mapTwo .jvm-zoom-btn.jvm-zoomin {
+  @apply left-0;
+}
+.mapTwo .jvm-zoom-btn.jvm-zoomout {
+  @apply left-9;
+}
+
+.mapFour .jvm-zoom-btn {
+  @apply -top-20;
+}
+.mapFour .jvm-zoom-btn.jvm-zoomin {
+  @apply right-9;
+}
+.mapFour .jvm-zoom-btn.jvm-zoomout {
+  @apply right-0;
+}
+
+.custom-input-date::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  -webkit-appearance: none;
+}
+
+/* Appex Charts */
+.apexcharts-text {
+  @apply !fill-body-color dark:!fill-dark-6;
+}
+.apexcharts-legend-text {
+  @apply !text-body-color dark:!text-dark-6;
+}
+.apexcharts-tooltip-text {
+  @apply !text-body-color dark:!text-dark-6;
+}
+.chart-10 .apexcharts-tooltip-text {
+  @apply !text-white;
+}
+.apexcharts-tooltip-title {
+  @apply !text-body-color dark:!text-dark-6;
+}
+.apexcharts-xcrosshairs {
+  @apply !fill-stroke dark:!fill-dark-3;
+}
+.apexcharts-gridline {
+  @apply !stroke-stroke dark:!stroke-dark-3;
+}
+.apexcharts-series.apexcharts-pie-series path {
+  @apply dark:!stroke-transparent;
+}
+.apexcharts-legend-series {
+  @apply !inline-flex gap-1.5;
+}
+.apexcharts-tooltip.apexcharts-theme-light {
+  @apply dark:!border-dark-3 dark:!bg-dark-2;
+}
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+  @apply dark:!border-dark-3 dark:!bg-dark-2;
+}
+.apexcharts-xaxistooltip,
+.apexcharts-yaxistooltip {
+  @apply dark:!border-dark-2 dark:!bg-dark-2 dark:!text-dark-6;
+}
+.apexcharts-xaxistooltip-bottom:after {
+  @apply dark:!border-b-dark-2;
+}
+.apexcharts-xaxistooltip-bottom:before {
+  @apply dark:!border-b-dark-2;
+}
+.apexcharts-tooltip-series-group {
+  @apply !pl-1.5;
+}
+.apexcharts-legend-marker {
+  @apply !top-0;
+}
