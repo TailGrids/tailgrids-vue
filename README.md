@@ -1,6 +1,6 @@
 # Vue.js UI Components for Tailwind CSS - TailGrids Vue.js
 
-Welcome to the Vue.js version of TailGrids. This free core version offers a wide range of high-quality Vue.js UI components and blocks, perfect for building modern websites, landing pages, and web apps using the power of Tailwind CSS and Vue.js. With its consistent design and extensive collection of essential UI elements, TailGrids Vue provides everything you need to create stunning user interfaces in your Vue.js projects.
+Welcome to the Vue.js version of TailGrids. TailGrids Vue.js free core version offers a wide range of high-quality Vue.js UI components and blocks, perfect for building modern websites, landing pages, and web apps using the power of Tailwind CSS and Vue.js. With its consistent design and extensive collection of essential UI elements, TailGrids Vue provides everything you need to create stunning user interfaces in your Vue.js projects.
 
 [![sneak-peek](https://github.com/TailGrids/tailgrids-vue/blob/main/tailgrids-vue.png)](https://tailgrids.com/components)
 
