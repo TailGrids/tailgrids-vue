@@ -8,34 +8,72 @@ TailGrids Vue comes with all the necessary integration features for seamless usa
 
 ## Getting Started
 
-To start using TailGrids Vue, follow these steps to properly set it up in your Vue.js project.
+**Step 1:** Install Tailwind CSS and generate the config file.
 
-1. Install Tailgrids by running the following command:
+If you haven't set up Tailwind CSS in your project yet, open your command terminal and execute the following commands:
 
-```sh
-npm install tailgrids
+```shellscript copy
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 ```
 
-2. Add Tailgrids to your `tailwind.config.js` file:
+**Step #2:** Install TailGrids
 
-```javascript
-module.exports = {
-  content: ["./*.html", "./ecommerce/*.html", "./assets/**/*.js"],
-  theme: {},
-  variants: {
+Next, install TailGrids by running the following command:
+
+```shellscript copy
+npm i tailgrids
+```
+
+**Step #3:** Update the Configuration
+
+Now, update your `tailwind.config.js` file to include the TailGrids plugin. Add the following code snippet:
+
+```javascript showLineNumbers copy filename="tailwind.config.js"
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
     extend: {},
   },
   plugins: [require("tailgrids/plugin")],
 };
 ```
 
-3. Browse through the available components and choose the desired Vue codebase snippets that you want to use in your projects. Simply copy and paste them!
+**Step #4:** Add Tailwind CSS directives.
 
-4. To view the changes locally, run the development server with this command:
+Create a CSS file named style.css in the /src directory. Then, include this code at the top of the file.
 
-```sh
+```css copy
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+**Step #5:** Import CSS into main.js
+
+Import the `style.css` CSS file inside your ./src/main.js file:
+
+```javascript copy
+import { createApp } from "vue";
+import App from "./App.vue";
+
+import "./style.css"; // add this
+
+createApp(App).mount("#app");
+```
+
+```shellscript copy
 npm run dev
 ```
+
+That's it! Browse and start using the [TailGrids Vue component](/components/vue-link) in your Vue project.
+
+If you want to build the project, you can run 
+```shellscript copy
+npm run build
+```
+
 
 ### [🚀 Explore All Components](https://tailgrids.com/components)
 
