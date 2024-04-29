@@ -1,0 +1,5 @@
+export { default as Gallery1 } from './Gallery1.vue'
+export { default as Gallery2 } from './Gallery2.vue'
+export { default as Gallery3 } from './Gallery3.vue'
+export { default as Gallery4 } from './Gallery4.vue'
+export { default as Gallery5 } from './Gallery5.vue'

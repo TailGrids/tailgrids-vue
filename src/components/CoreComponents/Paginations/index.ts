@@ -1,0 +1,6 @@
+export { default as Pagination1 } from './Pagination1.vue'
+export { default as Pagination2 } from './Pagination2.vue'
+export { default as Pagination3 } from './Pagination3.vue'
+export { default as Pagination4 } from './Pagination4.vue'
+export { default as Pagination5 } from './Pagination5.vue'
+export { default as Pagination6 } from './Pagination6.vue'

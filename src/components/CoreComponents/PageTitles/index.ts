@@ -1,0 +1,5 @@
+export { default as PageTitle1 } from './PageTitle1.vue'
+export { default as PageTitle2 } from './PageTitle2.vue'
+export { default as PageTitle3 } from './PageTitle3.vue'
+export { default as PageTitle4 } from './PageTitle4.vue'
+export { default as PageTitle5 } from './PageTitle5.vue'
