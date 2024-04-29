@@ -47,7 +47,7 @@
             </div>
           </label>
           <div class="absolute -top-7 left-1/2 -z-10 -translate-x-1/2 dark:opacity-20">
-            <img src="./images/file-upload/grid-shape-1.svg" alt="grid-shape-1" />
+            <img src="https://cdn.tailgrids.com/2.2/assets/core-components/images/file-upload/grid-shape-1.svg" alt="grid-shape-1" />
           </div>
         </div>
       </div>
