@@ -1,7 +1,7 @@
 {
   "name": "tailgrids-vue",
   "description": "Tailwind CSS Vue Components based on TailGrids Core, comes with all essential UI components and elements you need to kickstart Tailwind + Vue web projects.",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "private": false,
   "main": "dist/index.js",
   "files": [
