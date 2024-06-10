@@ -4,13 +4,32 @@
       <div class="mx-auto flex w-full max-w-[450px] gap-3">
         <input
           type="text"
-          value="www.tailgrids.com/figma"
-          class="h-12 w-full rounded-lg border border-stroke bg-transparent px-5 py-3 text-dark outline-none duration-200 focus:border-primary dark:border-dark-3 dark:text-white"
+          v-model="inputValue"
+          ref="inputRef"
+          class="h-12 w-full rounded-lg border border-stroke bg-transparent px-5 py-3 text-dark outline-none duration-200 selection:bg-transparent focus:border-primary dark:border-dark-3 dark:text-white"
         />
         <button
+          @click="copyToClipboard"
           class="inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-primary px-6 py-3 text-base font-medium text-white duration-200 hover:bg-primary/90"
         >
-          <span>
+          <span v-if="copySuccess">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.0394 6.0293L8.03936 15.0293L3.68359 10.6736"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span v-else>
             <svg
               width="20"
               height="20"
@@ -36,9 +55,40 @@
               />
             </svg>
           </span>
-          Copy
+          {{ copySuccess ? 'Copied!' : 'Copy' }}
         </button>
       </div>
     </div>
   </section>
 </template>
+
+<script>
+import { ref } from 'vue'
+
+export default {
+  name: 'Clipboard1',
+  setup() {
+    const copySuccess = ref('')
+    const inputRef = ref(null)
+    const inputValue = ref('www.tailgrids.com/figma')
+
+    const copyToClipboard = () => {
+      if (inputRef.value) {
+        inputRef.value.select()
+        document.execCommand('copy')
+        copySuccess.value = 'Copied!'
+        setTimeout(() => {
+          copySuccess.value = ''
+        }, 2000) // Clear the message after 2 seconds
+      }
+    }
+
+    return {
+      copySuccess,
+      inputRef,
+      inputValue,
+      copyToClipboard
+    }
+  }
+}
+</script>
