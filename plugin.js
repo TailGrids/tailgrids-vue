@@ -1,7 +1,7 @@
-const plugin = require('tailwindcss/plugin')
-const colors = require('tailwindcss/colors')
+import colors from 'tailwindcss/colors'
+import plugin from 'tailwindcss/plugin'
 
-module.exports = plugin(
+export default plugin(
   function ({ addBase, theme }) {
     const primaryColor = theme('colors.primary')
     const whiteColor = theme('colors.white')

@@ -107,7 +107,7 @@ const pricingPlans = ref([
             <a
               href="javascript:void(0)"
               :class="{
-                ' border-primary bg-primary text-white hover:bg-opacity-90':
+                ' border-primary bg-primary text-white hover:bg-primary/90':
                   plan.name === 'Business',
                 'border-stroke dark:border-dark-3 bg-transparent text-primary hover:border-primary hover:bg-primary hover:text-white':
                   plan.name !== 'Business'

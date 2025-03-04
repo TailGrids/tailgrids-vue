@@ -9,19 +9,19 @@ const breadcrumbItems = ref([
 
 const getLinkClass = (index: number) => {
   if (index === 0) {
-    return 'flex items-center text-base font-medium text-white hover:text-opacity-80'
+    return 'flex items-center text-base font-medium text-white hover:text-white/80'
   } else {
-    return 'text-base font-medium text-white hover:text-opacity-80'
+    return 'text-base font-medium text-white hover:text-white/80'
   }
 }
 
 const getTextClass = (index: number) => {
   if (index === 0) {
-    return 'text-base font-medium text-white text-opacity-80'
+    return 'text-base font-medium text-white/80'
   } else if (index === breadcrumbItems.value.length - 1) {
     return 'text-base font-medium text-white'
   } else {
-    return 'text-base font-medium text-white text-opacity-80'
+    return 'text-base font-medium text-white/80'
   }
 }
 </script>

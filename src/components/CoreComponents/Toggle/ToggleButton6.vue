@@ -14,7 +14,7 @@ const handleCheckboxChange = () => {
       <input type="checkbox" class="sr-only" @change="handleCheckboxChange" />
       <div class="block h-8 rounded-full box bg-primary w-14"></div>
       <div
-        :class="{ 'translate-x-full !bg-white': isChecked }"
+        :class="{ 'translate-x-full bg-white!': isChecked }"
         class="absolute flex items-center justify-center w-6 h-6 transition bg-white rounded-full dot left-1 top-1"
       ></div>
     </div>

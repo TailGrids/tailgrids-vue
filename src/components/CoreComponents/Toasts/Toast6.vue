@@ -26,7 +26,7 @@
             Accept
           </button>
           <button
-            class="mr-8 rounded-[3px] bg-dark px-4 py-[5px] text-xs font-medium text-white hover:bg-opacity-90"
+            class="mr-8 rounded-[3px] bg-dark px-4 py-[5px] text-xs font-medium text-white hover:bg-dark/90"
           >
             Decline
           </button>

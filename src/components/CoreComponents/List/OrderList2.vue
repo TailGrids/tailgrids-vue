@@ -18,7 +18,7 @@ const items = ref([
       class="text-body-color dark:text-dark-6 flex text-base"
     >
       <span
-        class="bg-primary mr-2.5 flex h-[26px] w-full max-w-[26px] items-center justify-center rounded text-base text-white"
+        class="bg-primary mr-2.5 flex h-[26px] w-full max-w-[26px] items-center justify-center rounded-sm text-base text-white"
       >
         {{ index + 1 }}
       </span>

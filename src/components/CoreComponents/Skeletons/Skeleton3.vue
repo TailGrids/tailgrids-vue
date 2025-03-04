@@ -3,7 +3,7 @@
     <div class="container">
       <div class="mx-auto w-full max-w-[700px] items-center gap-8 md:flex">
         <div
-          class="flex h-[200px] w-full max-w-[300px] items-center justify-center rounded-xl bg-gradient-to-r from-gray-1 to-gray-4 text-secondary-color dark:from-dark-4 dark:to-dark-5"
+          class="flex h-[200px] w-full max-w-[300px] items-center justify-center rounded-xl bg-linear-to-r from-gray-1 to-gray-4 text-secondary-color dark:from-dark-4 dark:to-dark-5"
         >
           <svg
             width="32"
@@ -20,22 +20,22 @@
         </div>
         <div class="w-full space-y-3">
           <div
-            class="w-full h-3 rounded-full bg-gradient-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
+            class="w-full h-3 rounded-full bg-linear-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
           ></div>
           <div
-            class="w-4/6 h-3 rounded-full bg-gradient-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
+            class="w-4/6 h-3 rounded-full bg-linear-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
           ></div>
           <div
-            class="w-5/6 h-3 rounded-full bg-gradient-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
+            class="w-5/6 h-3 rounded-full bg-linear-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
           ></div>
           <div
-            class="w-full h-3 rounded-full bg-gradient-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
+            class="w-full h-3 rounded-full bg-linear-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
           ></div>
           <div
-            class="w-5/6 h-3 rounded-full bg-gradient-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
+            class="w-5/6 h-3 rounded-full bg-linear-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
           ></div>
           <div
-            class="w-4/6 h-3 rounded-full bg-gradient-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
+            class="w-4/6 h-3 rounded-full bg-linear-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
           ></div>
         </div>
       </div>

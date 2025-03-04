@@ -12,7 +12,7 @@
           <div class="relative">
             <select
               name="choose-country"
-              class="w-full px-12 py-3 bg-transparent border rounded-lg outline-none appearance-none border-stroke text-dark focus:border-primary dark:border-dark-3 dark:text-white"
+              class="w-full px-12 py-3 bg-transparent border rounded-lg outline-hidden appearance-none border-stroke text-dark focus:border-primary dark:border-dark-3 dark:text-white"
             >
               <option value="USA">USA</option>
               <option value="UK">UK</option>

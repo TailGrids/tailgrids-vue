@@ -94,7 +94,7 @@ const selectTab = (index: number) => {
     <div class="container">
       <div class="-mx-4 flex flex-wrap">
         <div class="w-full px-4 lg:w-4/12">
-          <div class="mb-10 overflow-hidden rounded bg-[#F3F6FF] dark:bg-dark-3 lg:mb-0">
+          <div class="mb-10 overflow-hidden rounded-sm bg-[#F3F6FF] dark:bg-dark-3 lg:mb-0">
             <a
               v-for="(tab, index) in tabs"
               :key="index"

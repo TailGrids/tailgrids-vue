@@ -13,7 +13,7 @@ const handleCheckboxChange = () => {
     <div class="relative">
       <input type="checkbox" class="sr-only" @change="handleCheckboxChange" />
       <div
-        :class="{ '!bg-primary': isChecked }"
+        :class="{ 'bg-primary!': isChecked }"
         class="box border-primary mr-4 flex h-5 w-5 items-center justify-center rounded-full border"
       >
         <span class="h-[10px] w-[10px] rounded-full bg-white dark:bg-dark"></span>

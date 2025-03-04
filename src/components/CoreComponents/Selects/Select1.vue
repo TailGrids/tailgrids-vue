@@ -12,7 +12,7 @@
           <div class="relative">
             <select
               name="default-select"
-              class="w-full py-3 pl-5 pr-12 bg-transparent border rounded-lg outline-none appearance-none border-stroke text-dark focus:border-primary dark:border-dark-3 dark:text-white"
+              class="w-full py-3 pl-5 pr-12 bg-transparent border rounded-lg outline-hidden appearance-none border-stroke text-dark focus:border-primary dark:border-dark-3 dark:text-white"
             >
               <option value="Select option 1">Select option 1</option>
               <option value="Select option 2">Select option 2</option>

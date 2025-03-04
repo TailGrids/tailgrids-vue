@@ -50,7 +50,7 @@
             <div>
               <span
                 :style="{ left: minThumb + '%' }"
-                class="absolute -bottom-5 ml-1 -translate-x-1/2 rounded bg-white px-3 py-2 text-center text-dark shadow-lg dark:bg-dark-3 dark:text-white"
+                class="absolute -bottom-5 ml-1 -translate-x-1/2 rounded-sm bg-white px-3 py-2 text-center text-dark shadow-lg dark:bg-dark-3 dark:text-white"
               >
                 {{ minValue }}
               </span>
@@ -58,7 +58,7 @@
             <div>
               <span
                 :style="{ right: maxThumb + '%' }"
-                class="absolute -bottom-5 mr-1 translate-x-1/2 rounded bg-white px-3 py-2 text-center text-dark shadow-lg dark:bg-dark-3 dark:text-white"
+                class="absolute -bottom-5 mr-1 translate-x-1/2 rounded-sm bg-white px-3 py-2 text-center text-dark shadow-lg dark:bg-dark-3 dark:text-white"
               >
                 {{ maxValue }}
               </span>

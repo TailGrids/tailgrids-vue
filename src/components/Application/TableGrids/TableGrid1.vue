@@ -78,7 +78,7 @@ const gridItems = ref([
         <template v-for="(item, index) in gridItems" :key="index">
           <div class="w-full px-4 sm:w-1/2 lg:w-1/3 xl:w-1/4">
             <div class="mb-9">
-              <div class="mb-[10px] overflow-hidden rounded">
+              <div class="mb-[10px] overflow-hidden rounded-sm">
                 <img
                   :src="item.image"
                   alt="table grids"

@@ -14,10 +14,10 @@ const progressItems = ref([{ completion: '50%' }, { completion: '75%' }, { compl
             :style="{ width: item.completion }"
           >
             <span
-              class="bg-primary absolute -right-4 bottom-full mb-2 rounded-sm px-3.5 py-1 text-sm text-white"
+              class="bg-primary absolute -right-4 bottom-full mb-2 rounded-xs px-3.5 py-1 text-sm text-white"
             >
               <span
-                class="bg-primary absolute bottom-[-2px] left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-sm"
+                class="bg-primary absolute bottom-[-2px] left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-xs"
               ></span>
               {{ item.completion }}
             </span>

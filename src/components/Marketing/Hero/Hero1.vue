@@ -89,7 +89,7 @@ const clients = ref([
             <nav
               :class="{ hidden: !open }"
               id="navbarCollapse"
-              class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white dark:bg-dark-2 py-5 px-6 shadow transition-all lg:static lg:bg-transparent lg:block lg:w-full lg:max-w-full lg:shadow-none xl:ml-11 lg:dark:bg-transparent"
+              class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white dark:bg-dark-2 py-5 px-6 shadow-sm transition-all lg:static lg:bg-transparent lg:block lg:w-full lg:max-w-full lg:shadow-none xl:ml-11 lg:dark:bg-transparent"
             >
               <ul class="block lg:flex">
                 <template v-for="(item, index) in navLinkItems" :key="index">
@@ -131,7 +131,7 @@ const clients = ref([
         <div class="w-full px-4 lg:w-5/12">
           <div class="hero-content">
             <h1
-              class="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl"
+              class="mb-5 text-4xl font-bold leading-[1.208]! text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl"
             >
               The Greatest <br />
               Journey Of Online <br />

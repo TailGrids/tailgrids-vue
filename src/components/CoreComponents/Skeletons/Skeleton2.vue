@@ -3,7 +3,7 @@
     <div class="container">
       <div class="mx-auto w-full max-w-[370px]">
         <div
-          class="mb-7 flex h-[200px] w-full items-center justify-center rounded-xl bg-gradient-to-r from-gray-1 to-gray-4 text-secondary-color dark:from-dark-4 dark:to-dark-5"
+          class="mb-7 flex h-[200px] w-full items-center justify-center rounded-xl bg-linear-to-r from-gray-1 to-gray-4 text-secondary-color dark:from-dark-4 dark:to-dark-5"
         >
           <svg
             width="28"
@@ -24,13 +24,13 @@
         </div>
         <div class="space-y-4">
           <div
-            class="w-full h-3 rounded-full bg-gradient-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
+            class="w-full h-3 rounded-full bg-linear-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
           ></div>
           <div
-            class="w-4/6 h-3 rounded-full bg-gradient-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
+            class="w-4/6 h-3 rounded-full bg-linear-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
           ></div>
           <div
-            class="w-5/6 h-3 rounded-full bg-gradient-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
+            class="w-5/6 h-3 rounded-full bg-linear-to-r from-gray-1 to-gray-4 dark:from-dark-4 dark:to-dark-5"
           ></div>
         </div>
       </div>

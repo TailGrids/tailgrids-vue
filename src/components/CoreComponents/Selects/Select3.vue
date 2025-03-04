@@ -77,7 +77,7 @@
             <div class="relative flex-1">
               <select
                 name="multiselect-dropdown"
-                class="px-4 bg-transparent outline-none appearance-none text-dark dark:text-white"
+                class="px-4 bg-transparent outline-hidden appearance-none text-dark dark:text-white"
               >
                 <option value="USA">USA</option>
                 <option value="UK">UK</option>

@@ -2,7 +2,7 @@
   <!-- ====== Call To Action Section Start -->
   <section class="py-20 lg:py-[120px] bg-white dark:bg-dark">
     <div class="container mx-auto">
-      <div class="relative z-10 overflow-hidden rounded bg-primary py-12 px-8 md:p-[70px]">
+      <div class="relative z-10 overflow-hidden rounded-sm bg-primary py-12 px-8 md:p-[70px]">
         <div class="flex flex-wrap items-center -mx-4">
           <div class="w-full px-4 lg:w-1/2">
             <span class="block mb-4 text-base font-medium text-white">
@@ -25,7 +25,7 @@
               </a>
               <a
                 href="javascript:void(0)"
-                class="inline-flex py-3 my-1 text-base font-medium text-white transition rounded-md bg-secondary px-7 hover:bg-opacity-90"
+                class="inline-flex py-3 my-1 text-base font-medium text-white transition rounded-md bg-secondary px-7 hover:bg-secondary/90"
               >
                 Start Free Trial
               </a>

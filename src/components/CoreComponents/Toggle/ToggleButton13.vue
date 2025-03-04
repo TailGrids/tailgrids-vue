@@ -15,7 +15,7 @@ const handleCheckboxChange = () => {
     <div
       class="shadow-two flex h-[46px] w-[82px] items-center justify-center rounded-md bg-white dark:bg-dark-2"
     >
-      <span class="light bg-primary flex h-9 w-9 items-center justify-center rounded text-white">
+      <span class="light bg-primary flex h-9 w-9 items-center justify-center rounded-sm text-white">
         <svg
           width="16"
           height="16"
@@ -38,7 +38,7 @@ const handleCheckboxChange = () => {
           </defs>
         </svg>
       </span>
-      <span class="dark text-body-color flex h-9 w-9 items-center justify-center rounded">
+      <span class="dark text-body-color flex h-9 w-9 items-center justify-center rounded-sm">
         <svg
           width="16"
           height="16"

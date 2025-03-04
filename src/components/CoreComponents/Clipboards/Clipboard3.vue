@@ -7,7 +7,7 @@
             type="text"
             v-model="inputValue"
             ref="inputRef"
-            class="h-12 w-full rounded-lg border border-stroke bg-gray-1 py-3 pl-5 pr-14 text-dark outline-none duration-200 selection:bg-transparent focus:border-primary dark:border-dark-3 dark:bg-dark-2 dark:text-white"
+            class="h-12 w-full rounded-lg border border-stroke bg-gray-1 py-3 pl-5 pr-14 text-dark outline-hidden duration-200 selection:bg-transparent focus:border-primary dark:border-dark-3 dark:bg-dark-2 dark:text-white"
           />
           <button
             @click="copyToClipboard"

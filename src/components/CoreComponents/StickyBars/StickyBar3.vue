@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="w-full bg-gradient-to-l from-[#27F090] via-[#7F41F3] to-[#F59527] px-4 md:px-10">
+    <div class="w-full bg-linear-to-l from-[#27F090] via-[#7F41F3] to-[#F59527] px-4 md:px-10">
       <div class="relative pr-6">
         <p class="py-3 text-sm font-semibold text-center text-white md:text-base">
           On Sale For A Very Limited Time!

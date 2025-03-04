@@ -52,7 +52,7 @@ const showEllipsisBeforeLastPage = computed(() => {
 <template>
   <div class="bg-white py-10 text-center dark:bg-dark">
     <div
-      class="mb-12 inline-flex justify-center rounded bg-white p-3 shadow-[0px_1px_3px_0px_rgba(0,0,0,0.13)] dark:bg-dark-2"
+      class="mb-12 inline-flex justify-center rounded-sm bg-white p-3 shadow-[0px_1px_3px_0px_rgba(0,0,0,0.13)] dark:bg-dark-2"
     >
       <ul class="inline-flex overflow-hidden rounded-lg border border-stroke dark:border-white/5">
         <li>

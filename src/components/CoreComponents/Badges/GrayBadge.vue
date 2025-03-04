@@ -29,7 +29,7 @@ const BadgesItem = defineComponent({
         : `bg-body-color ${this.getBackgroundClasses()} text-white`
 
       return this.bgOpacity
-        ? `${classes} bg-body-color/10 dark:bg-gray/10 !text-dark dark:!text-gray`
+        ? `${classes} bg-body-color/10 dark:bg-gray/10 text-dark! dark:text-gray!`
         : classes
     },
     getOutlineClasses() {
@@ -43,7 +43,7 @@ const BadgesItem = defineComponent({
         (this.roundedFull && 'rounded-full') ||
         (this.roundedLg && 'rounded-lg') ||
         (this.roundedNone && 'rounded-none') ||
-        (this.roundedSm && 'rounded-sm') ||
+        (this.roundedSm && 'rounded-xs') ||
         (this.roundedMd && 'rounded-md') ||
         ''
       )
@@ -51,7 +51,7 @@ const BadgesItem = defineComponent({
   },
   template: `
     <span 
-      class="inline-block rounded py-1 px-2.5 text-xs font-medium" 
+      class="inline-block rounded-sm py-1 px-2.5 text-xs font-medium" 
       :class="getBadgeClasses()"
     >
       <slot></slot>

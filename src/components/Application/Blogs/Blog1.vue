@@ -54,12 +54,12 @@ const blogItems = ref([
         <template v-for="(item, index) in blogItems" :key="index">
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
             <div class="w-full mb-10">
-              <div class="mb-8 overflow-hidden rounded">
+              <div class="mb-8 overflow-hidden rounded-sm">
                 <img :src="item.image" alt="image" class="w-full" />
               </div>
               <div>
                 <span
-                  class="inline-block px-4 py-1 mb-5 text-xs font-semibold leading-loose text-center text-white rounded bg-primary"
+                  class="inline-block px-4 py-1 mb-5 text-xs font-semibold leading-loose text-center text-white rounded-sm bg-primary"
                 >
                   {{ item.date }}
                 </span>

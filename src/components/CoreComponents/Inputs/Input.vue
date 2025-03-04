@@ -14,7 +14,7 @@
             type="text"
             name="default-input"
             placeholder="Enter you full name"
-            class="w-full rounded-lg border border-stroke bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-none focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
+            class="w-full rounded-lg border border-stroke bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-hidden focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
           />
         </div>
         <div>
@@ -28,7 +28,7 @@
             type="text"
             name="default-input"
             placeholder="Enter you full name"
-            class="w-full rounded-lg border border-stroke bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-none focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
+            class="w-full rounded-lg border border-stroke bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-hidden focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
           />
           <p class="pt-1 text-sm text-dark-5">This is a hint text to help user.</p>
         </div>
@@ -41,7 +41,7 @@
             name="default-input"
             placeholder="Enter you full name"
             disabled
-            class="w-full rounded-lg border border-gray-2 bg-gray-2 px-5 py-3 text-dark-6 placeholder-dark-6 outline-none dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
+            class="w-full rounded-lg border border-gray-2 bg-gray-2 px-5 py-3 text-dark-6 placeholder-dark-6 outline-hidden dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
           />
         </div>
       </div>
@@ -60,7 +60,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-stroke bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-none focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-stroke bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-hidden focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute left-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -92,7 +92,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-stroke bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-none focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-stroke bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-hidden focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute left-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -123,7 +123,7 @@
               name="default-input"
               placeholder="Enter you full name"
               disabled
-              class="w-full rounded-lg border border-gray-2 bg-gray-2 py-3 pl-12 pr-5 text-dark-6 placeholder-dark-6 outline-none dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-gray-2 bg-gray-2 py-3 pl-12 pr-5 text-dark-6 placeholder-dark-6 outline-hidden dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
             />
             <span
               class="absolute left-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -153,7 +153,7 @@
               name="default-input"
               placeholder="Enter you full name"
               disabled
-              class="w-full rounded-lg border border-gray-2 bg-gray-2 py-3 pl-12 pr-5 text-dark-6 placeholder-dark-6 outline-none dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-gray-2 bg-gray-2 py-3 pl-12 pr-5 text-dark-6 placeholder-dark-6 outline-hidden dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
             />
             <span
               class="absolute left-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -189,7 +189,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-stroke bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-none focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-stroke bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-hidden focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute right-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -240,7 +240,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-stroke bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-none focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-stroke bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-hidden focus:border-primary dark:border-dark-3 dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute right-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -290,7 +290,7 @@
               name="default-input"
               placeholder="Enter you full name"
               disabled
-              class="w-full rounded-lg border border-gray-2 bg-gray-2 py-3 pl-5 pr-12 text-dark-6 placeholder-dark-6 outline-none dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-gray-2 bg-gray-2 py-3 pl-5 pr-12 text-dark-6 placeholder-dark-6 outline-hidden dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
             />
             <span
               class="absolute right-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -339,7 +339,7 @@
               name="default-input"
               placeholder="Enter you full name"
               disabled
-              class="w-full rounded-lg border border-gray-2 bg-gray-2 py-3 pl-5 pr-12 text-dark-6 placeholder-dark-6 outline-none dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-gray-2 bg-gray-2 py-3 pl-5 pr-12 text-dark-6 placeholder-dark-6 outline-hidden dark:border-dark-3 dark:bg-dark-3 dark:placeholder-dark-5"
             />
             <span
               class="absolute right-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -393,7 +393,7 @@
             type="text"
             name="default-input"
             placeholder="Enter you full name"
-            class="w-full rounded-lg border border-green bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+            class="w-full rounded-lg border border-green bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
           />
         </div>
         <div>
@@ -407,7 +407,7 @@
             type="text"
             name="default-input"
             placeholder="Enter you full name"
-            class="w-full rounded-lg border border-green bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+            class="w-full rounded-lg border border-green bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
           />
           <p class="pt-1 text-sm text-green">This is a hint text to help user.</p>
         </div>
@@ -423,7 +423,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-green bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-green bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute left-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -455,7 +455,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-green bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-green bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute left-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -488,7 +488,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-green bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-green bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute right-0 top-0 flex h-full w-12 items-center justify-center text-green"
@@ -528,7 +528,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-green bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-green bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute right-0 top-0 flex h-full w-12 items-center justify-center text-green"
@@ -571,7 +571,7 @@
             type="text"
             name="default-input"
             placeholder="Enter you full name"
-            class="w-full rounded-lg border border-red bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+            class="w-full rounded-lg border border-red bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
           />
         </div>
         <div>
@@ -585,7 +585,7 @@
             type="text"
             name="default-input"
             placeholder="Enter you full name"
-            class="w-full rounded-lg border border-red bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+            class="w-full rounded-lg border border-red bg-transparent px-5 py-3 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
           />
           <p class="pt-1 text-sm text-red">This is a hint text to help user.</p>
         </div>
@@ -601,7 +601,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-red bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-red bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute left-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -633,7 +633,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-red bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-red bg-transparent py-3 pl-12 pr-4 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute left-0 top-0 flex h-full w-12 items-center justify-center text-dark-5"
@@ -666,7 +666,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-red bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-red bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute right-0 top-0 flex h-full w-12 items-center justify-center text-red"
@@ -710,7 +710,7 @@
               type="text"
               name="default-input"
               placeholder="Enter you full name"
-              class="w-full rounded-lg border border-red bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-none dark:text-white dark:placeholder-dark-5"
+              class="w-full rounded-lg border border-red bg-transparent py-3 pl-5 pr-12 text-dark placeholder-dark-6 outline-hidden dark:text-white dark:placeholder-dark-5"
             />
             <span
               class="absolute right-0 top-0 flex h-full w-12 items-center justify-center text-red"

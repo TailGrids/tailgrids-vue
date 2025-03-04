@@ -11,7 +11,7 @@
         </div>
         <div class="mb-6">
           <button
-            class="bg-primary inline-flex items-center justify-center whitespace-nowrap rounded py-[10px] px-5 text-sm font-medium text-white hover:bg-opacity-90"
+            class="bg-primary inline-flex items-center justify-center whitespace-nowrap rounded-sm py-[10px] px-5 text-sm font-medium text-white hover:bg-primary/90"
           >
             Add New Item
             <span class="pl-2">

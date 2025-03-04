@@ -13,7 +13,7 @@ const handleCheckboxChange = () => {
     <div class="relative">
       <input type="checkbox" class="sr-only" @change="handleCheckboxChange" />
       <div
-        class="box mr-4 flex h-5 w-5 items-center justify-center rounded border border-stroke dark:border-dark-3"
+        class="box mr-4 flex h-5 w-5 items-center justify-center rounded-sm border border-stroke dark:border-dark-3"
       >
         <span class="opacity-0">
           <svg

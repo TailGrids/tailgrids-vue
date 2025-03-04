@@ -7,7 +7,7 @@
           <div class="mb-14">
             <div class="group relative inline-block">
               <button
-                class="bg-dark dark:bg-dark-2 inline-flex rounded py-2 px-[18px] text-base font-medium text-white"
+                class="bg-dark dark:bg-dark-2 inline-flex rounded-sm py-2 px-[18px] text-base font-medium text-white"
               >
                 Tooltip on top
               </button>
@@ -26,7 +26,7 @@
           <div class="mb-14">
             <div class="group relative inline-block">
               <button
-                class="bg-dark dark:bg-dark-2 inline-flex rounded py-2 px-[18px] text-base font-medium text-white"
+                class="bg-dark dark:bg-dark-2 inline-flex rounded-sm py-2 px-[18px] text-base font-medium text-white"
               >
                 Tooltip on right
               </button>
@@ -45,7 +45,7 @@
           <div class="mb-14">
             <div class="group relative inline-block">
               <button
-                class="bg-dark dark:bg-dark-2 inline-flex rounded py-2 px-[18px] text-base font-medium text-white"
+                class="bg-dark dark:bg-dark-2 inline-flex rounded-sm py-2 px-[18px] text-base font-medium text-white"
               >
                 Tooltip on bottom
               </button>
@@ -64,7 +64,7 @@
           <div class="mb-14 text-right sm:text-left">
             <div class="group relative inline-block">
               <button
-                class="bg-dark dark:bg-dark-2 inline-flex rounded py-2 px-[18px] text-base font-medium text-white"
+                class="bg-dark dark:bg-dark-2 inline-flex rounded-sm py-2 px-[18px] text-base font-medium text-white"
               >
                 Tooltip on left
               </button>

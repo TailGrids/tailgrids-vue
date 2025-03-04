@@ -72,7 +72,7 @@ onUnmounted(() => {
             <nav
               :class="{ hidden: !open }"
               id="navbarCollapse"
-              class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white px-6 py-5 shadow dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none lg:dark:bg-transparent"
+              class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white px-6 py-5 shadow-sm dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none lg:dark:bg-transparent"
             >
               <ul class="block lg:flex">
                 <template v-for="(item, index) in navLinkItems" :key="index">

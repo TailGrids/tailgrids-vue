@@ -35,7 +35,7 @@
       <li>
         <a
           href="javascript:void(0)"
-          class="flex h-10 min-w-10 items-center justify-center rounded-lg px-2 text-dark shadow-sm hover:bg-gray-2 dark:bg-white/5 dark:text-white dark:hover:bg-white/5"
+          class="flex h-10 min-w-10 items-center justify-center rounded-lg px-2 text-dark shadow-xs hover:bg-gray-2 dark:bg-white/5 dark:text-white dark:hover:bg-white/5"
         >
           2
         </a>

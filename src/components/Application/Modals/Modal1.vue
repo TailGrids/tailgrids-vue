@@ -49,7 +49,7 @@ onUnmounted(() => {
         <h3 class="pb-[18px] text-xl font-semibold text-dark dark:text-white sm:text-2xl">
           Your Message Sent Successfully
         </h3>
-        <span class="mx-auto mb-6 inline-block h-1 w-[90px] rounded bg-primary"></span>
+        <span class="mx-auto mb-6 inline-block h-1 w-[90px] rounded-sm bg-primary"></span>
         <p class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
           been the industry's standard dummy text ever since

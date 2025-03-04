@@ -70,7 +70,7 @@
                   id="datepicker"
                   type="text"
                   placeholder="Pick a date"
-                  class="w-full rounded-lg border border-stroke bg-transparent py-2.5 pl-[50px] pr-8 text-dark-2 outline-none transition focus:border-primary dark:border-dark-3 dark:text-dark-6 dark:focus:border-primary"
+                  class="w-full rounded-lg border border-stroke bg-transparent py-2.5 pl-[50px] pr-8 text-dark-2 outline-hidden transition focus:border-primary dark:border-dark-3 dark:text-dark-6 dark:focus:border-primary"
                   :value="updateInput()"
                   @click="toggleDatepicker"
                   readonly

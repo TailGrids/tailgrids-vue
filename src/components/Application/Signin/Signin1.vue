@@ -20,21 +20,21 @@
                 <input
                   type="text"
                   placeholder="Email"
-                  class="w-full px-5 py-3 text-base bg-transparent border rounded-md outline-none border-stroke text-body-color dark:text-white dark:border-dark-3 focus:border-primary focus-visible:shadow-none"
+                  class="w-full px-5 py-3 text-base bg-transparent border rounded-md outline-hidden border-stroke text-body-color dark:text-white dark:border-dark-3 focus:border-primary focus-visible:shadow-none"
                 />
               </div>
               <div class="mb-6">
                 <input
                   type="password"
                   placeholder="Password"
-                  class="w-full px-5 py-3 text-base bg-transparent border rounded-md outline-none border-stroke text-body-color dark:text-white dark:border-dark-3 focus:border-primary focus-visible:shadow-none"
+                  class="w-full px-5 py-3 text-base bg-transparent border rounded-md outline-hidden border-stroke text-body-color dark:text-white dark:border-dark-3 focus:border-primary focus-visible:shadow-none"
                 />
               </div>
               <div class="mb-10">
                 <input
                   type="submit"
                   value="Sign In"
-                  class="w-full px-5 py-3 text-base font-medium text-white transition border rounded-md cursor-pointer border-primary bg-primary hover:bg-opacity-90"
+                  class="w-full px-5 py-3 text-base font-medium text-white transition border rounded-md cursor-pointer border-primary bg-primary hover:bg-primary/90"
                 />
               </div>
             </form>
@@ -43,7 +43,7 @@
               <li class="w-full px-2">
                 <a
                   href="javascript:void(0)"
-                  class="flex h-11 items-center justify-center rounded-md bg-[#4064AC] hover:bg-opacity-90"
+                  class="flex h-11 items-center justify-center rounded-md bg-[#4064AC] hover:bg-[#4064AC]/90"
                 >
                   <svg
                     width="10"
@@ -62,7 +62,7 @@
               <li class="w-full px-2">
                 <a
                   href="javascript:void(0)"
-                  class="flex h-11 items-center justify-center rounded-md bg-[#1C9CEA] hover:bg-opacity-90"
+                  class="flex h-11 items-center justify-center rounded-md bg-[#1C9CEA] hover:bg-[#1C9CEA]/90"
                 >
                   <svg
                     width="22"
@@ -81,7 +81,7 @@
               <li class="w-full px-2">
                 <a
                   href="javascript:void(0)"
-                  class="flex h-11 items-center justify-center rounded-md bg-[#D64937] hover:bg-opacity-90"
+                  class="flex h-11 items-center justify-center rounded-md bg-[#D64937] hover:bg-[#D64937]/90"
                 >
                   <svg
                     width="18"

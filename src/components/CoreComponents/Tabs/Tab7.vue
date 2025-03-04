@@ -56,7 +56,7 @@ const selectTab = (index: number) => {
                       'text-dark bg-gray border-stroke hover:bg-primary hover:text-white dark:bg-dark dark:border-dark-3 dark:text-dark-6':
                         activeTab !== index
                     }"
-                    class="w-full px-5 py-2 text-base font-medium border rounded"
+                    class="w-full px-5 py-2 text-base font-medium border rounded-sm"
                   >
                     {{ tab.title }}
                   </button>

@@ -60,23 +60,23 @@ onUnmounted(() => {
         <div
           v-show="dropdownOpen"
           ref="domNode"
-          class="absolute right-0 top-full z-40 w-[200px] space-y-1 rounded bg-white p-2 shadow-card dark:bg-dark-2 dark:shadow-box-dark"
+          class="absolute right-0 top-full z-40 w-[200px] space-y-1 rounded-sm bg-white p-2 shadow-card dark:bg-dark-2 dark:shadow-box-dark"
         >
           <a
             href="javascript:void(0)"
-            class="block w-full rounded px-3 py-2 text-left text-sm text-body-color hover:bg-gray-2 dark:text-dark-6 dark:hover:bg-dark-3"
+            class="block w-full rounded-sm px-3 py-2 text-left text-sm text-body-color hover:bg-gray-2 dark:text-dark-6 dark:hover:bg-dark-3"
           >
             Profile
           </a>
           <a
             href="javascript:void(0)"
-            class="block w-full rounded px-3 py-2 text-left text-sm text-body-color hover:bg-gray-2 dark:text-dark-6 dark:hover:bg-dark-3"
+            class="block w-full rounded-sm px-3 py-2 text-left text-sm text-body-color hover:bg-gray-2 dark:text-dark-6 dark:hover:bg-dark-3"
           >
             Settings
           </a>
           <a
             href="javascript:void(0)"
-            class="block w-full rounded px-3 py-2 text-left text-sm text-body-color hover:bg-gray-2 dark:text-dark-6 dark:hover:bg-dark-3"
+            class="block w-full rounded-sm px-3 py-2 text-left text-sm text-body-color hover:bg-gray-2 dark:text-dark-6 dark:hover:bg-dark-3"
           >
             Sign Out
           </a>

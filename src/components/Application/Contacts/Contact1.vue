@@ -18,7 +18,7 @@
             </p>
             <div class="mb-8 flex w-full max-w-[370px]">
               <div
-                class="bg-primary/5 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded sm:h-[70px] sm:max-w-[70px]"
+                class="bg-primary/5 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded-sm sm:h-[70px] sm:max-w-[70px]"
               >
                 <svg
                   width="32"
@@ -42,7 +42,7 @@
             </div>
             <div class="mb-8 flex w-full max-w-[370px]">
               <div
-                class="bg-primary/5 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded sm:h-[70px] sm:max-w-[70px]"
+                class="bg-primary/5 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded-sm sm:h-[70px] sm:max-w-[70px]"
               >
                 <svg
                   width="32"
@@ -79,7 +79,7 @@
             </div>
             <div class="mb-8 flex w-full max-w-[370px]">
               <div
-                class="bg-primary/5 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded sm:h-[70px] sm:max-w-[70px]"
+                class="bg-primary/5 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded-sm sm:h-[70px] sm:max-w-[70px]"
               >
                 <svg
                   width="32"
@@ -108,34 +108,34 @@
                 <input
                   type="text"
                   placeholder="Your Name"
-                  class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
+                  class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded-sm border py-3 px-[14px] text-base outline-hidden"
                 />
               </div>
               <div class="mb-6">
                 <input
                   type="email"
                   placeholder="Your Email"
-                  class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
+                  class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded-sm border py-3 px-[14px] text-base outline-hidden"
                 />
               </div>
               <div class="mb-6">
                 <input
                   type="text"
                   placeholder="Your Phone"
-                  class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
+                  class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded-sm border py-3 px-[14px] text-base outline-hidden"
                 />
               </div>
               <div class="mb-6">
                 <textarea
                   rows="6"
                   placeholder="Your Message"
-                  class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none"
+                  class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded-sm border py-3 px-[14px] text-base outline-hidden"
                 ></textarea>
               </div>
               <div>
                 <button
                   type="submit"
-                  class="w-full p-3 text-white transition border rounded border-primary bg-primary hover:bg-opacity-90"
+                  class="w-full p-3 text-white transition border rounded-sm border-primary bg-primary hover:bg-primary/90"
                 >
                   Send Message
                 </button>

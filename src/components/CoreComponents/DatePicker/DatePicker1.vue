@@ -6,7 +6,7 @@
           <input
             type="text"
             placeholder="Pick a date"
-            class="h-12 w-full appearance-none rounded-lg border border-stroke bg-white pl-12 pr-4 text-dark outline-none focus:border-primary dark:border-dark-3 dark:bg-dark-2 dark:text-white"
+            class="h-12 w-full appearance-none rounded-lg border border-stroke bg-white pl-12 pr-4 text-dark outline-hidden focus:border-primary dark:border-dark-3 dark:bg-dark-2 dark:text-white"
           />
           <span class="absolute inset-y-0 flex h-12 w-12 items-center justify-center text-dark-5">
             <svg
@@ -370,7 +370,7 @@
 
           <div class="flex items-center space-x-3 pt-4 sm:space-x-5">
             <button
-              class="flex h-[50px] w-full items-center justify-center rounded-md bg-dark text-base font-medium text-white hover:bg-opacity-90"
+              class="flex h-[50px] w-full items-center justify-center rounded-md bg-dark text-base font-medium text-white hover:bg-dark/90"
             >
               Remove
             </button>

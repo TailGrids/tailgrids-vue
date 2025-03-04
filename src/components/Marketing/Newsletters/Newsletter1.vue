@@ -50,11 +50,11 @@
               <form class="flex flex-wrap pb-1">
                 <input
                   type="email"
-                  class="text-body-color dark:text-dark-6 focus:border-primary mr-3 mb-3 h-[50px] w-full max-w-[220px] rounded-md border border-stroke dark:border-dark-3 bg-white dark:bg-dark px-5 text-sm outline-none md:max-w-[315px] lg:max-w-[250px] xl:max-w-[315px]"
+                  class="text-body-color dark:text-dark-6 focus:border-primary mr-3 mb-3 h-[50px] w-full max-w-[220px] rounded-md border border-stroke dark:border-dark-3 bg-white dark:bg-dark px-5 text-sm outline-hidden md:max-w-[315px] lg:max-w-[250px] xl:max-w-[315px]"
                   placeholder="Your work mail"
                 />
                 <button
-                  class="bg-primary mb-3 h-[50px] rounded-md font-medium border border-transparent px-7 text-base text-white transition hover:bg-opacity-90"
+                  class="bg-primary mb-3 h-[50px] rounded-md font-medium border border-transparent px-7 text-base text-white transition hover:bg-primary/90"
                 >
                   Submit
                 </button>

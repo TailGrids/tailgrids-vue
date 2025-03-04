@@ -14,7 +14,7 @@ const handleCheckboxChange = () => {
   >
     <input type="checkbox" class="sr-only" @change="handleCheckboxChange" />
     <span
-      class="light text-primary bg-gray dark:bg-dark-3 flex items-center space-x-[6px] rounded py-2 px-[18px] text-sm font-medium"
+      class="light text-primary bg-gray dark:bg-dark-3 flex items-center space-x-[6px] rounded-sm py-2 px-[18px] text-sm font-medium"
     >
       <svg width="16" height="16" viewBox="0 0 16 16" class="mr-[6px] fill-current">
         <g clip-path="url(#clip0_3122_652)">
@@ -33,7 +33,7 @@ const handleCheckboxChange = () => {
       Light Mode
     </span>
     <span
-      class="dark text-body-color flex items-center space-x-[6px] rounded py-2 px-[18px] text-sm font-medium"
+      class="dark text-body-color flex items-center space-x-[6px] rounded-sm py-2 px-[18px] text-sm font-medium"
     >
       <svg width="16" height="16" viewBox="0 0 16 16" class="mr-[6px] fill-current">
         <path

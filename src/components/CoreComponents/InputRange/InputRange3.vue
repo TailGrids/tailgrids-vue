@@ -50,7 +50,7 @@
             <div>
               <span
                 :style="{ left: minThumb + '%' }"
-                class="absolute -top-16 ml-1 -translate-x-1/2 rounded bg-white px-3 py-2 text-center text-dark shadow-lg after:absolute after:-bottom-1.5 after:left-1/2 after:h-3 after:w-3 after:-translate-x-1/2 after:rotate-45 after:rounded-br-sm after:bg-inherit dark:bg-dark-3 dark:text-white"
+                class="absolute -top-16 ml-1 -translate-x-1/2 rounded-sm bg-white px-3 py-2 text-center text-dark shadow-lg after:absolute after:-bottom-1.5 after:left-1/2 after:h-3 after:w-3 after:-translate-x-1/2 after:rotate-45 after:rounded-br-sm after:bg-inherit dark:bg-dark-3 dark:text-white"
               >
                 {{ minValue }}
               </span>
@@ -58,7 +58,7 @@
             <div>
               <span
                 :style="{ right: maxThumb + '%' }"
-                class="absolute -top-16 mr-1 translate-x-1/2 rounded bg-white px-3 py-2 text-center text-dark shadow-lg after:absolute after:-bottom-1.5 after:left-1/2 after:h-3 after:w-3 after:-translate-x-1/2 after:rotate-45 after:rounded-br-sm after:bg-inherit dark:bg-dark-3 dark:text-white"
+                class="absolute -top-16 mr-1 translate-x-1/2 rounded-sm bg-white px-3 py-2 text-center text-dark shadow-lg after:absolute after:-bottom-1.5 after:left-1/2 after:h-3 after:w-3 after:-translate-x-1/2 after:rotate-45 after:rounded-br-sm after:bg-inherit dark:bg-dark-3 dark:text-white"
               >
                 {{ maxValue }}
               </span>
