@@ -1,0 +1,8 @@
+export { default as Toast1 } from './Toast1.vue'
+export { default as Toast2 } from './Toast2.vue'
+export { default as Toast3 } from './Toast3.vue'
+export { default as Toast4 } from './Toast4.vue'
+export { default as Toast5 } from './Toast5.vue'
+export { default as Toast6 } from './Toast6.vue'
+export { default as Toast7 } from './Toast7.vue'
+export { default as Toast8 } from './Toast8.vue'

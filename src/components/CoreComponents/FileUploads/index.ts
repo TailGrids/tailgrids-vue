@@ -1,0 +1,5 @@
+export { default as FileUpload1 } from './FileUpload1.vue'
+export { default as FileUpload2 } from './FileUpload2.vue'
+export { default as FileUpload3 } from './FileUpload3.vue'
+export { default as FileUpload4 } from './FileUpload4.vue'
+export { default as FileUpload5 } from './FileUpload5.vue'
