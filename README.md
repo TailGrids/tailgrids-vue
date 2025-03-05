@@ -25,32 +25,16 @@ Next, install TailGrids by running the following command:
 npm i tailgrids
 ```
 
-**Step #3:** Update the Configuration
-
-Now, update your `tailwind.config.js` file to include the TailGrids plugin. Add the following code snippet:
-
-```javascript showLineNumbers copy filename="tailwind.config.js"
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [require("tailgrids/plugin")],
-};
-```
-
-**Step #4:** Add Tailwind CSS directives.
+**Step #3:** Add Tailwind CSS directives.
 
 Create a CSS file named style.css in the /src directory. Then, include this code at the top of the file.
 
 ```css copy
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@plugin 'tailgrids/plugin'
 ```
 
-**Step #5:** Import CSS into main.js
+**Step #4:** Import CSS into main.js
 
 Import the `style.css` CSS file inside your ./src/main.js file:
 
